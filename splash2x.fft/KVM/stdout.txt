@@ -1,0 +1,24 @@
+Couldn't import dot_parser, loading of dot files will not be possible.
+Redirecting stdout to /root/anthony/lelec2990-sim/splash2x.fft/KVM/stdout.txt
+Redirecting stderr to /root/anthony/lelec2990-sim/splash2x.fft/KVM/stderr.txt
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jun  1 2016 11:12:21
+gem5 started Jun  1 2016 23:42:27
+gem5 executing on bulusan.info.ucl.ac.be, pid 3996047
+command line: /root/anthony/gem5/build/X86/gem5.opt --outdir=/root/anthony/lelec2990-sim/splash2x.fft/KVM -e --stderr-file=/root/anthony/lelec2990-sim/splash2x.fft/KVM/stderr.txt -r --stdout-file=/root/anthony/lelec2990-sim/splash2x.fft/KVM/stdout.txt /root/anthony/gem5/configs/example/fs.py --mem-size 1GB --script /root/anthony/gem5/sim_script --num-cpus 4 --cpu-type X86KvmCPU
+
+Global frequency set at 1000000000000 ticks per second
+info: kernel located at: /root/anthony/debian/binaries/vmlinux
+      0: rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+**** REAL SIMULATION ****
+info: KVM: Coalesced MMIO disabled by config.
+info: KVM: Coalesced MMIO disabled by config.
+info: KVM: Coalesced MMIO disabled by config.
+info: KVM: Coalesced MMIO disabled by config.
+info: Entering event queue @ 0.  Starting simulation...
+info: Entering event queue @ 52416758571000.  Starting simulation...
+Writing checkpoint
+info: Entering event queue @ 52416758571500.  Starting simulation...
+Exiting @ tick 52927984322500 because m5_exit instruction encountered
