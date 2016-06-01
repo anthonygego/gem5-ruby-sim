@@ -1,0 +1,95 @@
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (1024 Mbytes)
+Listening for com_1 connection on port 3456
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7000
+0: system.remote_gdb.listener: listening for remote gdb #1 on port 7001
+0: system.remote_gdb.listener: listening for remote gdb #2 on port 7002
+0: system.remote_gdb.listener: listening for remote gdb #3 on port 7003
+warn: CoherentXBar system.membus has no snooping ports attached!
+warn: Reading current count from inactive timer.
+warn: tr: Illegal segment type (2)
+warn: tr: S flag is set
+warn: kvm-x86: MSR (0x3a) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x12) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x11) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d01) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d00) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000000) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000001) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000020) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000021) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000073) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d02) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d03) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d04) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x3b) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x6e0) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x1a0) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x9e) unsupported by gem5. Skipping.
+warn: Don't know what interrupt to clear for console.
+warn: cs limit (0xffffffff) and g (0) combination is illegal.
+warn: kvm-x86: MSR (0x3a) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x12) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x11) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d01) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d00) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000000) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000001) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000020) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000021) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000073) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d02) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d03) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d04) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x3b) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x6e0) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x1a0) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x9e) unsupported by gem5. Skipping.
+warn: cs limit (0xffffffff) and g (0) combination is illegal.
+warn: cs limit (0xffffffff) and g (0) combination is illegal.
+hack: Assuming logical destinations are 1 << id.
+warn: cs limit (0xffffffff) and g (0) combination is illegal.
+warn: kvm-x86: MSR (0x3a) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x12) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x11) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d01) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d00) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000000) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000001) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000020) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000021) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000073) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d02) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d03) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d04) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x3b) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x6e0) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x1a0) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x9e) unsupported by gem5. Skipping.
+warn: cs limit (0xffffffff) and g (0) combination is illegal.
+warn: cs limit (0xffffffff) and g (0) combination is illegal.
+warn: cs limit (0xffffffff) and g (0) combination is illegal.
+warn: kvm-x86: MSR (0x3a) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x12) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x11) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d01) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d00) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000000) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000001) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000020) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000021) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x40000073) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d02) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d03) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x4b564d04) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x3b) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x6e0) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x1a0) unsupported by gem5. Skipping.
+warn: kvm-x86: MSR (0x9e) unsupported by gem5. Skipping.
+warn: cs limit (0xffffffff) and g (0) combination is illegal.
+warn: cs limit (0xffffffff) and g (0) combination is illegal.
+warn: Tried to clear PCI interrupt 14
+warn: i8042 "Write output port" command not implemented.
+warn: i8042 "Write keyboard output buffer" command not implemented.
+warn: Write to unknown i8042 (keyboard controller) command port.
+warn: Unknown mouse command 0xe1.
+hack: Pretending totalOps is equivalent to totalInsts()
