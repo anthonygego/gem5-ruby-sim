@@ -1,0 +1,16 @@
+Redirecting stdout to /root/anthony/lelec2990-sim/splash2x.radix/X86_MOESI_hammer/l1d_size/32kB/stdout.txt
+Redirecting stderr to /root/anthony/lelec2990-sim/splash2x.radix/X86_MOESI_hammer/l1d_size/32kB/stderr.txt
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jun  1 2016 13:03:02
+gem5 started Jun  2 2016 14:50:20
+gem5 executing on cayambe.info.ucl.ac.be, pid 4112862
+command line: /root/anthony/gem5/build/X86_MOESI_hammer/gem5.opt --outdir=/root/anthony/lelec2990-sim/splash2x.radix/X86_MOESI_hammer/l1d_size/32kB -e --stderr-file=/root/anthony/lelec2990-sim/splash2x.radix/X86_MOESI_hammer/l1d_size/32kB/stderr.txt -r --stdout-file=/root/anthony/lelec2990-sim/splash2x.radix/X86_MOESI_hammer/l1d_size/32kB/stdout.txt /root/anthony/gem5/configs/example/fs.py --mem-size 1GB --script /root/anthony/gem5/sim_script --num-cpus 4 --ruby -r 1 --restore-with-cpu timing --l1d_size 32kB
+
+Global frequency set at 1000000000000 ticks per second
+info: kernel located at: /root/anthony/debian/binaries/vmlinux
+      0: rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+**** REAL SIMULATION ****
+info: Entering event queue @ 52225131518500.  Starting simulation...
+Exiting @ tick 53950230690001 because m5_exit instruction encountered
