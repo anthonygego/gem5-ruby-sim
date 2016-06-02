@@ -1,0 +1,37 @@
+iter_num = 1024
+Transpose: iter_num = 0
+Step 1:   156009
+FFt1DOnce: iter_num = 5120
+Step 2:   560035
+Transpose: iter_num = 0
+Step 3:   112007
+Step 4:   456029
+Transpose: iter_num = 0
+Step 5:   108007
+[HOOKS] Leaving ROI
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0           1392087         376023       0.27011
+
+                 TIMING INFORMATION
+Start time                        : 1325376051396524
+Initialization finish time        : 1325376051700543
+Overall finish time               : 1325376053092630
+Total time with initialization    :          1696106
+Total time without initialization :          1392087
+Overall transpose time            :           376023
+Overall transpose fraction        :          0.27011
+
+
+real	0m1.752s
+user	0m1.472s
+sys	0m0.280s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC]
+[PARSEC] BIBLIOGRAPHY
+[PARSEC]
+[PARSEC] [1] Woo et al. The SPLASH-2 Programs: Characterization and Methodological Considerations. ISCA, 1995.
+[PARSEC]
+[PARSEC] Done.
