@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /root/parsec-3.0
+source env.sh
+parsecmgmt -a run -p PRG_NAME -c gcc-hooks -i simsmall
+/sbin/m5 exit
