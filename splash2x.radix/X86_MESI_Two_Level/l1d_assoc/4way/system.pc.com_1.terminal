@@ -1,0 +1,25 @@
+[HOOKS] Leaving ROI
+
+                 PROCESS STATISTICS
+               Total            Rank            Sort
+ Proc          Time             Time            Time
+    0         952060          224015          728045
+
+                 TIMING INFORMATION
+Start time                        : 1325376051516531
+Initialization finish time        : 1325376052396586
+Overall finish time               : 1325376053348646
+Total time with initialization    :          1832115
+Total time without initialization :           952060
+
+
+real	0m1.900s
+user	0m1.700s
+sys	0m0.208s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC]
+[PARSEC] BIBLIOGRAPHY
+[PARSEC]
+[PARSEC] [1] Woo et al. The SPLASH-2 Programs: Characterization and Methodological Considerations. ISCA, 1995.
+[PARSEC]
+[PARSEC] Done.
