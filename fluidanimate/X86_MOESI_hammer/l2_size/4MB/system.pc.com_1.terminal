@@ -1,10 +1,10 @@
 [HOOKS] Leaving ROI
 Saving file "out.fluid"...
-[HOOKS] Total time spent in ROI: 2.360s
+[HOOKS] Total time spent in ROI: 2.336s
 [HOOKS] Terminating
 
-real	0m2.944s
-user	0m2.556s
+real	0m2.920s
+user	0m2.528s
 sys	0m0.384s
 [PARSEC] [----------    End of output    ----------]
 [PARSEC]
