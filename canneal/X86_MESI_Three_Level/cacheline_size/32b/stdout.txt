@@ -1,0 +1,16 @@
+Redirecting stdout to /root/anthony/lelec2990-sim2/canneal/X86_MESI_Three_Level/cacheline_size/32b/stdout.txt
+Redirecting stderr to /root/anthony/lelec2990-sim2/canneal/X86_MESI_Three_Level/cacheline_size/32b/stderr.txt
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jun  1 2016 12:08:32
+gem5 started Jun  3 2016 03:37:28
+gem5 executing on trident.info.ucl.ac.be, pid 1648841
+command line: /root/anthony/gem5/build/X86_MESI_Three_Level/gem5.opt --outdir=/root/anthony/lelec2990-sim2/canneal/X86_MESI_Three_Level/cacheline_size/32b -e --stderr-file=/root/anthony/lelec2990-sim2/canneal/X86_MESI_Three_Level/cacheline_size/32b/stderr.txt -r --stdout-file=/root/anthony/lelec2990-sim2/canneal/X86_MESI_Three_Level/cacheline_size/32b/stdout.txt /root/anthony/gem5/configs/example/fs.py --mem-size 1GB --script /root/anthony/lelec2990-sim2/my_sim_script --num-cpus 4 --ruby -r 1 --restore-with-cpu timing --cacheline_size 32
+
+Global frequency set at 1000000000000 ticks per second
+info: kernel located at: /root/anthony/debian/binaries/vmlinux
+      0: rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+**** REAL SIMULATION ****
+info: Entering event queue @ 53629785292000.  Starting simulation...
+Exiting @ tick 55141399721001 because m5_exit instruction encountered
