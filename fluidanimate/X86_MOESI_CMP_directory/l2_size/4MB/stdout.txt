@@ -5,8 +5,8 @@ gem5 Simulator System.  http://gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 compiled Jun  1 2016 12:28:54
-gem5 started Jun  3 2016 10:19:10
-gem5 executing on bulusan.info.ucl.ac.be, pid 4014541
+gem5 started Jun  3 2016 13:17:45
+gem5 executing on bulusan.info.ucl.ac.be, pid 4016209
 command line: /root/anthony/gem5/build/X86_MOESI_CMP_directory/gem5.opt --outdir=/root/anthony/lelec2990-sim2/fluidanimate/X86_MOESI_CMP_directory/l2_size/4MB -e --stderr-file=/root/anthony/lelec2990-sim2/fluidanimate/X86_MOESI_CMP_directory/l2_size/4MB/stderr.txt -r --stdout-file=/root/anthony/lelec2990-sim2/fluidanimate/X86_MOESI_CMP_directory/l2_size/4MB/stdout.txt /root/anthony/gem5/configs/example/fs.py --mem-size 1GB --script /root/anthony/lelec2990-sim2/my_sim_script --num-cpus 4 --ruby -r 1 --restore-with-cpu timing --l2_size 4MB
 
 Global frequency set at 1000000000000 ticks per second
