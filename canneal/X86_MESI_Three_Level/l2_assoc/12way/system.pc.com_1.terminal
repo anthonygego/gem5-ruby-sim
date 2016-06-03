@@ -1,0 +1,15 @@
+[HOOKS] Leaving ROI
+Final routing is: 9.27726e+07
+[HOOKS] Total time spent in ROI: 0.980s
+[HOOKS] Terminating
+
+real	0m3.156s
+user	0m2.864s
+sys	0m0.284s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC]
+[PARSEC] BIBLIOGRAPHY
+[PARSEC]
+[PARSEC] [1] Bienia. Benchmarking Modern Multiprocessors. Ph.D. Thesis, 2011.
+[PARSEC]
+[PARSEC] Done.
