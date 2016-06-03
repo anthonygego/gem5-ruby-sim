@@ -5,8 +5,8 @@ gem5 Simulator System.  http://gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 compiled Jun  1 2016 11:37:46
-gem5 started Jun  3 2016 01:58:48
-gem5 executing on bulusan.info.ucl.ac.be, pid 4010138
+gem5 started Jun  3 2016 04:59:03
+gem5 executing on bulusan.info.ucl.ac.be, pid 4011838
 command line: /root/anthony/gem5/build/X86_MESI_Two_Level/gem5.opt --outdir=/root/anthony/lelec2990-sim2/fluidanimate/X86_MESI_Two_Level/l2_size/1MB -e --stderr-file=/root/anthony/lelec2990-sim2/fluidanimate/X86_MESI_Two_Level/l2_size/1MB/stderr.txt -r --stdout-file=/root/anthony/lelec2990-sim2/fluidanimate/X86_MESI_Two_Level/l2_size/1MB/stdout.txt /root/anthony/gem5/configs/example/fs.py --mem-size 1GB --script /root/anthony/lelec2990-sim2/my_sim_script --num-cpus 4 --ruby -r 1 --restore-with-cpu timing --l2_size 1MB
 
 Global frequency set at 1000000000000 ticks per second
@@ -14,4 +14,3 @@ info: kernel located at: /root/anthony/debian/binaries/vmlinux
       0: rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
 **** REAL SIMULATION ****
 info: Entering event queue @ 52814421597000.  Starting simulation...
-Exiting @ tick 55341216561501 because m5_exit instruction encountered

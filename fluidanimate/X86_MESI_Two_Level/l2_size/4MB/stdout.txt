@@ -14,3 +14,4 @@ info: kernel located at: /root/anthony/debian/binaries/vmlinux
       0: rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
 **** REAL SIMULATION ****
 info: Entering event queue @ 52814421597000.  Starting simulation...
+Exiting @ tick 55310639676001 because m5_exit instruction encountered
