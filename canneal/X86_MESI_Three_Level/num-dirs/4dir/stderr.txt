@@ -1,0 +1,51 @@
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (256 Mbytes)
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (256 Mbytes)
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (256 Mbytes)
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (256 Mbytes)
+Listening for com_1 connection on port 3456
+0: system.remote_gdb.listener: listening for remote gdb #0 on port 7000
+0: system.remote_gdb.listener: listening for remote gdb #1 on port 7001
+0: system.remote_gdb.listener: listening for remote gdb #2 on port 7002
+0: system.remote_gdb.listener: listening for remote gdb #3 on port 7003
+warn: Reading current count from inactive timer.
+warn: Replacement policy updates recently became the responsibility of SLICC state machines. Make sure to setMRU() near callbacks in .sm files!
+hack: Assuming logical destinations are 1 << id.
+warn: Tried to clear PCI interrupt 14
+panic: Possible Deadlock detected. Aborting!
+version: 0 request.paddr: 0x3fd914d8 m_readRequestTable: 1 current time: 54069359864000 issue_time: 54068872604000 difference: 487260000
+ @ tick 54069359864000
+[wakeup:build/X86_MESI_Three_Level/mem/ruby/system/Sequencer.cc, line 104]
+Memory Usage: 1819652 KBytes
+Program aborted at tick 54069359864000
+--- BEGIN LIBC BACKTRACE ---
+/root/anthony/gem5/build/X86_MESI_Three_Level/gem5.opt(_Z15print_backtracev+0x15)[0xc50035]
+/root/anthony/gem5/build/X86_MESI_Three_Level/gem5.opt(_Z12abortHandleri+0x39)[0xc6b699]
+/lib64/libpthread.so.0[0x3eca610430]
+/lib64/libc.so.6(gsignal+0x38)[0x3ec9a349c8]
+/lib64/libc.so.6(abort+0x16a)[0x3ec9a3665a]
+/root/anthony/gem5/build/X86_MESI_Three_Level/gem5.opt(_Z15__exit_epilogueiPKcS0_iS0_+0x42b)[0xcebbdb]
+/root/anthony/gem5/build/X86_MESI_Three_Level/gem5.opt(_Z14__exit_messageIIjmmmmmEEvPKciS1_S1_iS1_DpRKT_+0x367)[0xb010b7]
+/root/anthony/gem5/build/X86_MESI_Three_Level/gem5.opt(_ZN9Sequencer6wakeupEv+0x1ce)[0xafe4fe]
+/root/anthony/gem5/build/X86_MESI_Three_Level/gem5.opt(_ZN10EventQueue10serviceOneEv+0xb1)[0xc5df31]
+/root/anthony/gem5/build/X86_MESI_Three_Level/gem5.opt(_Z9doSimLoopP10EventQueue+0x38)[0xc84a38]
+/root/anthony/gem5/build/X86_MESI_Three_Level/gem5.opt(_Z8simulatem+0x1eb)[0xc84fab]
+/root/anthony/gem5/build/X86_MESI_Three_Level/gem5.opt[0xd4e8f0]
+/lib64/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4e63)[0x3ecb2e1f43]
+/lib64/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x834)[0x3ecb2e36b4]
+/lib64/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x54e6)[0x3ecb2e25c6]
+/lib64/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x5586)[0x3ecb2e2666]
+/lib64/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x5586)[0x3ecb2e2666]
+/lib64/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x834)[0x3ecb2e36b4]
+/lib64/libpython2.7.so.1.0(PyEval_EvalCode+0x19)[0x3ecb2e37d9]
+/lib64/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x4de2)[0x3ecb2e1ec2]
+/lib64/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x834)[0x3ecb2e36b4]
+/lib64/libpython2.7.so.1.0(PyEval_EvalFrameEx+0x54e6)[0x3ecb2e25c6]
+/lib64/libpython2.7.so.1.0(PyEval_EvalCodeEx+0x834)[0x3ecb2e36b4]
+/lib64/libpython2.7.so.1.0(PyEval_EvalCode+0x19)[0x3ecb2e37d9]
+/lib64/libpython2.7.so.1.0[0x3ecb2fcbdf]
+/lib64/libpython2.7.so.1.0(PyRun_StringFlags+0x64)[0x3ecb2fda54]
+/root/anthony/gem5/build/X86_MESI_Three_Level/gem5.opt(_Z6m5MainiPPc+0x7f)[0xc6aeef]
+/root/anthony/gem5/build/X86_MESI_Three_Level/gem5.opt(main+0x33)[0x712c13]
+/lib64/libc.so.6(__libc_start_main+0xf0)[0x3ec9a20700]
+/root/anthony/gem5/build/X86_MESI_Three_Level/gem5.opt(_start+0x29)[0x735329]
+--- END LIBC BACKTRACE ---
