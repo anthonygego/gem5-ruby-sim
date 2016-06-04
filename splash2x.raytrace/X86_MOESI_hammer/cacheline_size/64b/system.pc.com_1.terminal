@@ -1,0 +1,37 @@
+[HOOKS] Leaving ROI
+
+****** Hierarchial uniform grid memory allocation summary ******* 
+
+     < struct >:            < current >   < maximum >    < sizeof > 
+     <  bytes >:             <  bytes >   <   bytes >    <  bytes > 
+
+     grid:                      14112         14112           144 
+     hashtable entries:          8544          8544             8 
+     emptycell entries:          1560          1560             8 
+     voxel:                    248360        248360            40 
+     bintree_node:            1478280       1478280           120 
+
+     Totals:                  1750856       1750856      
+
+TIMING STATISTICS MEASURED BY MAIN PROCESS:
+        Overall start time         1325376055072566
+        Overall end time       1325376057992748
+        Total time with initialization               2920182
+        Total time without initialization               2920182
+
+
+
+PER-PROCESS STATISTICS:
+                Proc                Time
+                            Tracing Rays
+
+                   0             2920182
+
+
+              Max =              2920182
+              Min =              2920182
+              Avg =              2920182
+
+real	0m3.076s
+user	0m2.976s
+sys	0m0.072s
