@@ -1,0 +1,15 @@
+[HOOKS] Leaving ROI
+Saving file "out.fluid"...
+[HOOKS] Total time spent in ROI: 2.388s
+[HOOKS] Terminating
+
+real	0m2.980s
+user	0m2.588s
+sys	0m0.388s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC]
+[PARSEC] BIBLIOGRAPHY
+[PARSEC]
+[PARSEC] [1] Bienia. Benchmarking Modern Multiprocessors. Ph.D. Thesis, 2011.
+[PARSEC]
+[PARSEC] Done.
