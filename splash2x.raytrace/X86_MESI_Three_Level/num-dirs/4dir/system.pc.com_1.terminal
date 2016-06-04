@@ -1,0 +1,46 @@
+[HOOKS] Leaving ROI
+
+****** Hierarchial uniform grid memory allocation summary ******* 
+
+     < struct >:            < current >   < maximum >    < sizeof > 
+     <  bytes >:             <  bytes >   <   bytes >    <  bytes > 
+
+     grid:                      14112         14112           144 
+     hashtable entries:          8544          8544             8 
+     emptycell entries:          1560          1560             8 
+     voxel:                    248360        248360            40 
+     bintree_node:            1478280       1478280           120 
+
+     Totals:                  1750856       1750856      
+
+TIMING STATISTICS MEASserial8250: too much work for irq4
+URED BY MAIN PROCESS:
+        Overall start time         1325376052048564
+        Overall end time       1325376055440776
+        Total time with initialization               3392212
+        Total time without initialization               3392212
+
+
+
+PER-PROCESS STATISTICS:
+                Proc                Time
+                            Tracing Rays
+
+                   0             3392212
+
+
+              Max =              3392212
+              Min =              3392212
+              Aserial8250: too much work for irq4
+vg =              3392212
+
+real	0m3.552s
+user	0m3.432s
+sys	0m0.088s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC]
+[PARSEC] BIBLIOGRAPHY
+[PARSEC]
+[PARSEC] [1] Woo et al. The SPLASH-2 Programs: Characterization and Methodological Considerations. ISCA, 1995.
+[PARSEC]
+[PARSEC] Done.
