@@ -1,1 +1,13 @@
 Starting FMM with 1 processor
+ERROR (P0) : Ran out of boxes
+
+real	0m3.272s
+user	0m3.192s
+sys	0m0.100s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC]
+[PARSEC] BIBLIOGRAPHY
+[PARSEC]
+[PARSEC] [1] Woo et al. The SPLASH-2 Programs: Characterization and Methodological Considerations. ISCA, 1995.
+[PARSEC]
+[PARSEC] Done.
