@@ -1,0 +1,29 @@
+Starting FMM with 1 processor
+[HOOKS] Leaving ROI
+Finished FMM
+                                   PROCESS STATISTICS
+             Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
+ Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
+    0      2472155       16001       24002       12001      220013     2172136           0        8002       20000
+
+                                   TIMING INFORMATION
+Start time                        : 13253serial8250: too much work for irq4
+76051532532
+Initialization finish time        : 1325376053212637
+Overall finish time               : 1325376055684792
+Total time with initialization    :          4152260
+Total time without initialization :          2472155
+
+Total time for steps 3 to 5 :      2472155
+
+
+real	0m4.220s
+user	0m4.128s
+sys	0m0.104s
+[PARSEC] [----------    End of output    ----------]
+[PARSEC]
+[PARSEC] BIBLIOGRAPHY
+[PARSEC]
+[PARSEC] [1] Woo et al. The SPLASH-2 Programs: Characterization and Methodological Considerations. ISCA, 1995.
+[PARSEC]
+[PARSEC] Done.
