@@ -1,0 +1,16 @@
+Redirecting stdout to /root/anthony/lelec2990-sim2/splash2x.raytrace/X86_MESI_Two_Level/num-dirs/2dir/stdout.txt
+Redirecting stderr to /root/anthony/lelec2990-sim2/splash2x.raytrace/X86_MESI_Two_Level/num-dirs/2dir/stderr.txt
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Jun  1 2016 11:41:24
+gem5 started Jun  4 2016 17:28:58
+gem5 executing on yunaska.info.ucl.ac.be, pid 2170354
+command line: /root/anthony/gem5/build/X86_MESI_Two_Level/gem5.opt --outdir=/root/anthony/lelec2990-sim2/splash2x.raytrace/X86_MESI_Two_Level/num-dirs/2dir -e --stderr-file=/root/anthony/lelec2990-sim2/splash2x.raytrace/X86_MESI_Two_Level/num-dirs/2dir/stderr.txt -r --stdout-file=/root/anthony/lelec2990-sim2/splash2x.raytrace/X86_MESI_Two_Level/num-dirs/2dir/stdout.txt /root/anthony/gem5/configs/example/fs.py --mem-size 1GB --script /root/anthony/lelec2990-sim2/my_sim_script --num-cpus 4 --ruby -r 1 --restore-with-cpu timing --num-dirs 2
+
+Global frequency set at 1000000000000 ticks per second
+info: kernel located at: /root/anthony/debian/binaries/vmlinux
+      0: rtc: Real-time clock set to Sun Jan  1 00:00:00 2012
+**** REAL SIMULATION ****
+info: Entering event queue @ 53146672429500.  Starting simulation...
+Exiting @ tick 56147031282501 because m5_exit instruction encountered
