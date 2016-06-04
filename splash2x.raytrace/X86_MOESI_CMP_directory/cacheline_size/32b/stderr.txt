@@ -8,3 +8,4 @@ warn: Reading current count from inactive timer.
 warn: Replacement policy updates recently became the responsibility of SLICC state machines. Make sure to setMRU() near callbacks in .sm files!
 hack: Assuming logical destinations are 1 << id.
 warn: Tried to clear PCI interrupt 14
+warn: Don't know what interrupt to clear for console.
