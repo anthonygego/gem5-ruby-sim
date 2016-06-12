@@ -808,4 +808,3 @@ system.pc.south_bridge.ide.disks.dma_write_bytes         8192                   
 system.pc.south_bridge.ide.disks.dma_write_txs            2                       # Number of DMA write transactions.
 
 ---------- End Simulation Statistics   ----------
- 
