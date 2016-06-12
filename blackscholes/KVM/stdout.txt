@@ -3,9 +3,9 @@ Redirecting stderr to /root/anthony/lelec2990-sim/blackscholes/KVM/stderr.txt
 gem5 Simulator System.  http://gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
-gem5 compiled Jun  1 2016 11:14:39
+gem5 compiled Jun  1 2016 11:19:07
 gem5 started Jun  1 2016 23:42:27
-gem5 executing on trident.info.ucl.ac.be, pid 1229251
+gem5 executing on baluran.info.ucl.ac.be, pid 676003
 command line: /root/anthony/gem5/build/X86/gem5.opt --outdir=/root/anthony/lelec2990-sim/blackscholes/KVM -e --stderr-file=/root/anthony/lelec2990-sim/blackscholes/KVM/stderr.txt -r --stdout-file=/root/anthony/lelec2990-sim/blackscholes/KVM/stdout.txt /root/anthony/gem5/configs/example/fs.py --mem-size 1GB --script /root/anthony/gem5/sim_script --num-cpus 4 --cpu-type X86KvmCPU
 
 Global frequency set at 1000000000000 ticks per second
@@ -17,7 +17,7 @@ info: KVM: Coalesced MMIO disabled by config.
 info: KVM: Coalesced MMIO disabled by config.
 info: KVM: Coalesced MMIO disabled by config.
 info: Entering event queue @ 0.  Starting simulation...
-info: Entering event queue @ 52312562616000.  Starting simulation...
+info: Entering event queue @ 52243707871000.  Starting simulation...
 Writing checkpoint
-info: Entering event queue @ 52312562616500.  Starting simulation...
-Exiting @ tick 52543012134500 because m5_exit instruction encountered
+info: Entering event queue @ 52243707871500.  Starting simulation...
+Exiting @ tick 52471230996500 because m5_exit instruction encountered

@@ -160,12 +160,12 @@ mousedev: PS/2 mouse device common for all mice
 input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
 device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
 usbcore: registered new interface driver usbhid
+input: PS/2 Generic Mouse as /devices/platform/i8042/serio1/input/input1
 usbhid: USB HID core driver
 oprofile: using timer interrupt.
 TCP: cubic registered
 NET: Registered protocol family 10
 IPv6 over IPv4 tunneling driver
-input: PS/2 Generic Mouse as /devices/platform/i8042/serio1/input/input1
 NET: Registered protocol family 17
 console [netcon0] enabled
 netconsole: network logging started
@@ -195,8 +195,8 @@ Size of data: 163840
 [HOOKS] Terminating
 
 real	0m0.224s
-user	0m0.172s
-sys	0m0.048s
+user	0m0.168s
+sys	0m0.052s
 [PARSEC] [----------    End of output    ----------]
 [PARSEC]
 [PARSEC] BIBLIOGRAPHY
