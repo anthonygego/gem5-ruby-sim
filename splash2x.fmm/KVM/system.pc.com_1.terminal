@@ -159,6 +159,7 @@ serio: i8042 AUX port at 0x60,0x64 irq 12
 mousedev: PS/2 mouse device common for all mice
 input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
 device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
+input: PS/2 Generic Mouse as /devices/platform/i8042/serio1/input/input1
 usbcore: registered new interface driver usbhid
 usbhid: USB HID core driver
 oprofile: using timer interrupt.
@@ -166,7 +167,6 @@ TCP: cubic registered
 NET: Registered protocol family 10
 IPv6 over IPv4 tunneling driver
 NET: Registered protocol family 17
-input: PS/2 Generic Mouse as /devices/platform/i8042/serio1/input/input1
 console [netcon0] enabled
 netconsole: network logging started
 EXT2-fs (hda1): warning: mounting unchecked fs, running e2fsck is recommended
@@ -195,13 +195,13 @@ Finished FMM
                                    PROCESS STATISTICS
              Track        Tree        List        Part        Pass       Inter        Bar        Intra       Other
  Proc        Time         Time        Time        Time        Time       Time         Time       Time        Time
-    0       444028        4001        8000           0       48003      380024           0        4000           0
+    0       444028        8000        8001           0       40002      384024           0           0        4001
 
                                    TIMING INFORMATION
 Start time                        : 13253serial8250: too much work for irq4
-76051532532
-Initialization finish time        : 1325376051932557
-Overall finish time               : 1325376052376585
+76051564534
+Initialization finish time        : 1325376051964559
+Overall finish time               : 1325376052408587
 Total time with initialization    :           844053
 Total time without initialization :           444028
 
@@ -209,7 +209,7 @@ Total time for steps 3 to 5 :       444028
 
 
 real	0m0.916s
-user	0m0.788s
+user	0m0.792s
 sys	0m0.140s
 [PARSEC] [----------    End of output    ----------]
 [PARSEC]
