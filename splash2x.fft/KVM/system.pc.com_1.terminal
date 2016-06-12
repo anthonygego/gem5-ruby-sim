@@ -159,17 +159,10 @@ serio: i8042 AUX port at 0x60,0x64 irq 12
 mousedev: PS/2 mouse device common for all mice
 input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
 device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
-<<<<<<< HEAD
-usbcore: registered new interface driver usbhid
-usbhid: USB HID core driver
-oprofile: using timer interrupt.
-input: PS/2 Generic Mouse as /devices/platform/i8042/serio1/input/input1
-=======
 input: PS/2 Generic Mouse as /devices/platform/i8042/serio1/input/input1
 usbcore: registered new interface driver usbhid
 usbhid: USB HID core driver
 oprofile: using timer interrupt.
->>>>>>> bf60be1... sync
 TCP: cubic registered
 NET: Registered protocol family 10
 IPv6 over IPv4 tunneling driver
@@ -204,16 +197,6 @@ FFT with Blocking Transpose
 [HOOKS] Entering ROI
 iter_num = 1024
 Transpose: iter_num = 0
-<<<<<<< HEAD
-Step 1:   120007
-FFt1DOnce: iter_num = 5120
-Step 2:    68004
-Transpose: iter_num = 0
-Step 3:    64004
-Step 4:    60004
-Transpose: iter_num = 0
-Step 5:    24002
-=======
 Step 1:   124008
 FFt1DOnce: iter_num = 5120
 Step 2:    64004
@@ -222,30 +205,11 @@ Step 3:    68004
 Step 4:    60004
 Transpose: iter_num = 0
 Step 5:    24001
->>>>>>> bf60be1... sync
 [HOOKS] Leaving ROI
 
                  PROCESS STATISTICS
             Computation      Transpose     Transpose
  Proc          Time            Time        Fraction
-<<<<<<< HEAD
-    0            336021         208013       0.61905
-
-                 TIMING INFORMATION
-Start time                        : 1325376051464528
-Initialization finish time        : 1325376051780548
-Overall finish time               : 1325376052116569
-Total time with initialization    :           652041
-Total time without initialization :           336021
-Overaserial8250: too much work for irq4
-ll transpose time            :           208013
-Overall transpose fraction        :          0.61905
-
-
-real	0m0.736s
-user	0m0.368s
-sys	0m0.344s
-=======
     0            340021         216013       0.63529
 
                  TIMING INFORMATION
@@ -262,7 +226,6 @@ Overall transpose fraction        :          0.63529
 real	0m0.712s
 user	0m0.400s
 sys	0m0.308s
->>>>>>> bf60be1... sync
 [PARSEC] [----------    End of output    ----------]
 [PARSEC]
 [PARSEC] BIBLIOGRAPHY
