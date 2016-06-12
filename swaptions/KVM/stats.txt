@@ -1,32 +1,32 @@
 
 ---------- Begin Simulation Statistics ----------
-sim_seconds                                  0.785452                       # Number of seconds simulated
-sim_ticks                                785452230500                       # Number of ticks simulated
-final_tick                               53231632122500                       # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
+sim_seconds                                  0.773864                       # Number of seconds simulated
+sim_ticks                                773864194000                       # Number of ticks simulated
+final_tick                               52460665489000                       # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
 sim_freq                                 1000000000000                       # Frequency of simulated ticks
-host_inst_rate                             4634246311                       # Simulator instruction rate (inst/s)
-host_op_rate                               4633973876                       # Simulator op (including micro ops) rate (op/s)
-host_tick_rate                           1086533858120                       # Simulator tick rate (ticks/s)
-host_mem_usage                                1325884                       # Number of bytes of host memory used
+host_inst_rate                             4644555229                       # Simulator instruction rate (inst/s)
+host_op_rate                               4644290832                       # Simulator op (including micro ops) rate (op/s)
+host_tick_rate                           1071717513690                       # Simulator tick rate (ticks/s)
+host_mem_usage                                1325968                       # Number of bytes of host memory used
 host_seconds                                     0.72                       # Real time elapsed on the host
-sim_insts                                  3349787619                       # Number of instructions simulated
-sim_ops                                    3349787619                       # Number of ops (including micro ops) simulated
+sim_insts                                  3353445357                       # Number of instructions simulated
+sim_ops                                    3353445357                       # Number of ops (including micro ops) simulated
 system.voltage_domain.voltage                       1                       # Voltage in Volts
 system.clk_domain.clock                          1000                       # Clock period in ticks
-system.mem_ctrls.bytes_read::pc.south_bridge.ide          232                       # Number of bytes read from this memory
-system.mem_ctrls.bytes_read::total                232                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_read::pc.south_bridge.ide          240                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_read::total                240                       # Number of bytes read from this memory
 system.mem_ctrls.bytes_written::pc.south_bridge.ide       184320                       # Number of bytes written to this memory
 system.mem_ctrls.bytes_written::total          184320                       # Number of bytes written to this memory
-system.mem_ctrls.num_reads::pc.south_bridge.ide           29                       # Number of read requests responded to by this memory
-system.mem_ctrls.num_reads::total                  29                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_reads::pc.south_bridge.ide           30                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_reads::total                  30                       # Number of read requests responded to by this memory
 system.mem_ctrls.num_writes::pc.south_bridge.ide         2880                       # Number of write requests responded to by this memory
 system.mem_ctrls.num_writes::total               2880                       # Number of write requests responded to by this memory
-system.mem_ctrls.bw_read::pc.south_bridge.ide          295                       # Total read bandwidth from this memory (bytes/s)
-system.mem_ctrls.bw_read::total                   295                       # Total read bandwidth from this memory (bytes/s)
-system.mem_ctrls.bw_write::pc.south_bridge.ide       234667                       # Write bandwidth from this memory (bytes/s)
-system.mem_ctrls.bw_write::total               234667                       # Write bandwidth from this memory (bytes/s)
-system.mem_ctrls.bw_total::pc.south_bridge.ide       234963                       # Total bandwidth to/from this memory (bytes/s)
-system.mem_ctrls.bw_total::total               234963                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_read::pc.south_bridge.ide          310                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_read::total                   310                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_write::pc.south_bridge.ide       238181                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_write::total               238181                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_total::pc.south_bridge.ide       238491                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::total               238491                       # Total bandwidth to/from this memory (bytes/s)
 system.mem_ctrls.readReqs                           0                       # Number of read requests accepted
 system.mem_ctrls.writeReqs                          0                       # Number of write requests accepted
 system.mem_ctrls.readBursts                         0                       # Number of DRAM read bursts, including those serviced by the write queue
@@ -237,163 +237,163 @@ system.mem_ctrls_1.memoryStateTime::ACT_PDN            0                       #
 system.cpu_voltage_domain.voltage                   1                       # Voltage in Volts
 system.cpu_clk_domain.clock                       500                       # Clock period in ticks
 system.cpu0.apic_clk_domain.clock                8000                       # Clock period in ticks
-system.cpu0.numCycles                      1574769699                       # number of cpu cycles simulated
+system.cpu0.numCycles                      1549901163                       # number of cpu cycles simulated
 system.cpu0.numWorkItemsStarted                     0                       # number of work items this cpu started
 system.cpu0.numWorkItemsCompleted                   0                       # number of work items this cpu completed
-system.cpu0.committedInsts                 1958603142                       # Number of instructions committed
-system.cpu0.numVMExits                           1850                       # total number of KVM exits
+system.cpu0.committedInsts                    1214326                       # Number of instructions committed
+system.cpu0.numVMExits                           1306                       # total number of KVM exits
 system.cpu0.numVMHalfEntries                        0                       # number of KVM entries to finalize pending operations
-system.cpu0.numExitSignal                        1623                       # exits due to signal delivery
-system.cpu0.numMMIO                               216                       # number of VM exits due to memory mapped IO
+system.cpu0.numExitSignal                         875                       # exits due to signal delivery
+system.cpu0.numMMIO                               209                       # number of VM exits due to memory mapped IO
 system.cpu0.numCoalescedMMIO                        0                       # number of coalesced memory mapped IO requests
-system.cpu0.numIO                                   6                       # number of VM exits due to legacy IO
-system.cpu0.numHalt                                 4                       # number of VM exits due to wait for interrupt instructions
+system.cpu0.numIO                                  24                       # number of VM exits due to legacy IO
+system.cpu0.numHalt                               197                       # number of VM exits due to wait for interrupt instructions
 system.cpu0.numInterrupts                         199                       # number of interrupts delivered
 system.cpu0.numHypercalls                           0                       # number of hypercalls
 system.cpu0.kern.inst.arm                           0                       # number of arm instructions executed
 system.cpu0.kern.inst.quiesce                       0                       # number of quiesce instructions executed
 system.cpu1.apic_clk_domain.clock                8000                       # Clock period in ticks
-system.cpu1.numCycles                      1575217273                       # number of cpu cycles simulated
+system.cpu1.numCycles                      1549542698                       # number of cpu cycles simulated
 system.cpu1.numWorkItemsStarted                     0                       # number of work items this cpu started
 system.cpu1.numWorkItemsCompleted                   0                       # number of work items this cpu completed
-system.cpu1.committedInsts                     691165                       # Number of instructions committed
-system.cpu1.numVMExits                            794                       # total number of KVM exits
-system.cpu1.numVMHalfEntries                        0                       # number of KVM entries to finalize pending operations
-system.cpu1.numExitSignal                         285                       # exits due to signal delivery
-system.cpu1.numMMIO                               209                       # number of VM exits due to memory mapped IO
+system.cpu1.committedInsts                   17177718                       # Number of instructions committed
+system.cpu1.numVMExits                            719                       # total number of KVM exits
+system.cpu1.numVMHalfEntries                        1                       # number of KVM entries to finalize pending operations
+system.cpu1.numExitSignal                         280                       # exits due to signal delivery
+system.cpu1.numMMIO                               202                       # number of VM exits due to memory mapped IO
 system.cpu1.numCoalescedMMIO                        0                       # number of coalesced memory mapped IO requests
-system.cpu1.numIO                                  98                       # number of VM exits due to legacy IO
-system.cpu1.numHalt                               200                       # number of VM exits due to wait for interrupt instructions
-system.cpu1.numInterrupts                         203                       # number of interrupts delivered
+system.cpu1.numIO                                  40                       # number of VM exits due to legacy IO
+system.cpu1.numHalt                               196                       # number of VM exits due to wait for interrupt instructions
+system.cpu1.numInterrupts                         199                       # number of interrupts delivered
 system.cpu1.numHypercalls                           0                       # number of hypercalls
 system.cpu1.kern.inst.arm                           0                       # number of arm instructions executed
 system.cpu1.kern.inst.quiesce                       0                       # number of quiesce instructions executed
 system.cpu2.apic_clk_domain.clock                8000                       # Clock period in ticks
-system.cpu2.numCycles                      1573682474                       # number of cpu cycles simulated
+system.cpu2.numCycles                      1550913936                       # number of cpu cycles simulated
 system.cpu2.numWorkItemsStarted                     0                       # number of work items this cpu started
 system.cpu2.numWorkItemsCompleted                   0                       # number of work items this cpu completed
-system.cpu2.committedInsts                    1281433                       # Number of instructions committed
-system.cpu2.numVMExits                            734                       # total number of KVM exits
-system.cpu2.numVMHalfEntries                        2                       # number of KVM entries to finalize pending operations
-system.cpu2.numExitSignal                         301                       # exits due to signal delivery
-system.cpu2.numMMIO                               211                       # number of VM exits due to memory mapped IO
+system.cpu2.committedInsts                 1958520886                       # Number of instructions committed
+system.cpu2.numVMExits                           1304                       # total number of KVM exits
+system.cpu2.numVMHalfEntries                        0                       # number of KVM entries to finalize pending operations
+system.cpu2.numExitSignal                        1084                       # exits due to signal delivery
+system.cpu2.numMMIO                               209                       # number of VM exits due to memory mapped IO
 system.cpu2.numCoalescedMMIO                        0                       # number of coalesced memory mapped IO requests
-system.cpu2.numIO                                  23                       # number of VM exits due to legacy IO
-system.cpu2.numHalt                               199                       # number of VM exits due to wait for interrupt instructions
-system.cpu2.numInterrupts                         201                       # number of interrupts delivered
+system.cpu2.numIO                                   6                       # number of VM exits due to legacy IO
+system.cpu2.numHalt                                 5                       # number of VM exits due to wait for interrupt instructions
+system.cpu2.numInterrupts                         196                       # number of interrupts delivered
 system.cpu2.numHypercalls                           0                       # number of hypercalls
 system.cpu2.kern.inst.arm                           0                       # number of arm instructions executed
 system.cpu2.kern.inst.quiesce                       0                       # number of quiesce instructions executed
 system.cpu3.apic_clk_domain.clock                8000                       # Clock period in ticks
-system.cpu3.numCycles                      1567243195                       # number of cpu cycles simulated
+system.cpu3.numCycles                      1544831254                       # number of cpu cycles simulated
 system.cpu3.numWorkItemsStarted                     0                       # number of work items this cpu started
 system.cpu3.numWorkItemsCompleted                   0                       # number of work items this cpu completed
-system.cpu3.committedInsts                   17016962                       # Number of instructions committed
-system.cpu3.numVMExits                            830                       # total number of KVM exits
-system.cpu3.numVMHalfEntries                        1                       # number of KVM entries to finalize pending operations
-system.cpu3.numExitSignal                         386                       # exits due to signal delivery
-system.cpu3.numMMIO                               210                       # number of VM exits due to memory mapped IO
+system.cpu3.committedInsts                     586174                       # Number of instructions committed
+system.cpu3.numVMExits                           1060                       # total number of KVM exits
+system.cpu3.numVMHalfEntries                        0                       # number of KVM entries to finalize pending operations
+system.cpu3.numExitSignal                         569                       # exits due to signal delivery
+system.cpu3.numMMIO                               206                       # number of VM exits due to memory mapped IO
 system.cpu3.numCoalescedMMIO                        0                       # number of coalesced memory mapped IO requests
-system.cpu3.numIO                                  34                       # number of VM exits due to legacy IO
-system.cpu3.numHalt                               199                       # number of VM exits due to wait for interrupt instructions
-system.cpu3.numInterrupts                         201                       # number of interrupts delivered
+system.cpu3.numIO                                  87                       # number of VM exits due to legacy IO
+system.cpu3.numHalt                               197                       # number of VM exits due to wait for interrupt instructions
+system.cpu3.numInterrupts                         197                       # number of interrupts delivered
 system.cpu3.numHypercalls                           0                       # number of hypercalls
 system.cpu3.kern.inst.arm                           0                       # number of arm instructions executed
 system.cpu3.kern.inst.quiesce                       0                       # number of quiesce instructions executed
-system.iobus.trans_dist::ReadReq                  126                       # Transaction distribution
-system.iobus.trans_dist::ReadResp                 126                       # Transaction distribution
-system.iobus.trans_dist::WriteReq                2958                       # Transaction distribution
-system.iobus.trans_dist::WriteResp               2958                       # Transaction distribution
-system.iobus.trans_dist::MessageReq                 7                       # Transaction distribution
-system.iobus.trans_dist::MessageResp                7                       # Transaction distribution
+system.iobus.trans_dist::ReadReq                  122                       # Transaction distribution
+system.iobus.trans_dist::ReadResp                 122                       # Transaction distribution
+system.iobus.trans_dist::WriteReq                2952                       # Transaction distribution
+system.iobus.trans_dist::WriteResp               2952                       # Transaction distribution
+system.iobus.trans_dist::MessageReq                 5                       # Transaction distribution
+system.iobus.trans_dist::MessageResp                5                       # Transaction distribution
 system.iobus.pkt_count_system.bridge.master::system.pc.south_bridge.ide.pio          138                       # Packet count per connected master and slave (bytes)
-system.iobus.pkt_count_system.bridge.master::system.pc.south_bridge.io_apic.pio           28                       # Packet count per connected master and slave (bytes)
-system.iobus.pkt_count_system.bridge.master::system.pc.com_1.pio          184                       # Packet count per connected master and slave (bytes)
-system.iobus.pkt_count_system.bridge.master::total          350                       # Packet count per connected master and slave (bytes)
-system.iobus.pkt_count_system.pc.south_bridge.ide.dma::system.iobridge.slave         5818                       # Packet count per connected master and slave (bytes)
-system.iobus.pkt_count_system.pc.south_bridge.ide.dma::total         5818                       # Packet count per connected master and slave (bytes)
-system.iobus.pkt_count_system.pc.south_bridge.io_apic.int_master::system.apicbridge.slave           14                       # Packet count per connected master and slave (bytes)
-system.iobus.pkt_count_system.pc.south_bridge.io_apic.int_master::total           14                       # Packet count per connected master and slave (bytes)
-system.iobus.pkt_count::total                    6182                       # Packet count per connected master and slave (bytes)
+system.iobus.pkt_count_system.bridge.master::system.pc.south_bridge.io_apic.pio           14                       # Packet count per connected master and slave (bytes)
+system.iobus.pkt_count_system.bridge.master::system.pc.com_1.pio          176                       # Packet count per connected master and slave (bytes)
+system.iobus.pkt_count_system.bridge.master::total          328                       # Packet count per connected master and slave (bytes)
+system.iobus.pkt_count_system.pc.south_bridge.ide.dma::system.iobridge.slave         5820                       # Packet count per connected master and slave (bytes)
+system.iobus.pkt_count_system.pc.south_bridge.ide.dma::total         5820                       # Packet count per connected master and slave (bytes)
+system.iobus.pkt_count_system.pc.south_bridge.io_apic.int_master::system.apicbridge.slave           10                       # Packet count per connected master and slave (bytes)
+system.iobus.pkt_count_system.pc.south_bridge.io_apic.int_master::total           10                       # Packet count per connected master and slave (bytes)
+system.iobus.pkt_count::total                    6158                       # Packet count per connected master and slave (bytes)
 system.iobus.pkt_size_system.bridge.master::system.pc.south_bridge.ide.pio           78                       # Cumulative packet size per connected master and slave (bytes)
-system.iobus.pkt_size_system.bridge.master::system.pc.south_bridge.io_apic.pio           56                       # Cumulative packet size per connected master and slave (bytes)
-system.iobus.pkt_size_system.bridge.master::system.pc.com_1.pio           92                       # Cumulative packet size per connected master and slave (bytes)
-system.iobus.pkt_size_system.bridge.master::total          226                       # Cumulative packet size per connected master and slave (bytes)
-system.iobus.pkt_size_system.pc.south_bridge.ide.dma::system.iobridge.slave       184552                       # Cumulative packet size per connected master and slave (bytes)
-system.iobus.pkt_size_system.pc.south_bridge.ide.dma::total       184552                       # Cumulative packet size per connected master and slave (bytes)
-system.iobus.pkt_size_system.pc.south_bridge.io_apic.int_master::system.apicbridge.slave           28                       # Cumulative packet size per connected master and slave (bytes)
-system.iobus.pkt_size_system.pc.south_bridge.io_apic.int_master::total           28                       # Cumulative packet size per connected master and slave (bytes)
-system.iobus.pkt_size::total                   184806                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.trans_dist::ReadReq                 135                       # Transaction distribution
-system.membus.trans_dist::ReadResp                135                       # Transaction distribution
-system.membus.trans_dist::WriteReq               3780                       # Transaction distribution
-system.membus.trans_dist::WriteResp              3780                       # Transaction distribution
-system.membus.trans_dist::MessageReq               18                       # Transaction distribution
-system.membus.trans_dist::MessageResp              18                       # Transaction distribution
+system.iobus.pkt_size_system.bridge.master::system.pc.south_bridge.io_apic.pio           28                       # Cumulative packet size per connected master and slave (bytes)
+system.iobus.pkt_size_system.bridge.master::system.pc.com_1.pio           88                       # Cumulative packet size per connected master and slave (bytes)
+system.iobus.pkt_size_system.bridge.master::total          194                       # Cumulative packet size per connected master and slave (bytes)
+system.iobus.pkt_size_system.pc.south_bridge.ide.dma::system.iobridge.slave       184560                       # Cumulative packet size per connected master and slave (bytes)
+system.iobus.pkt_size_system.pc.south_bridge.ide.dma::total       184560                       # Cumulative packet size per connected master and slave (bytes)
+system.iobus.pkt_size_system.pc.south_bridge.io_apic.int_master::system.apicbridge.slave           20                       # Cumulative packet size per connected master and slave (bytes)
+system.iobus.pkt_size_system.pc.south_bridge.io_apic.int_master::total           20                       # Cumulative packet size per connected master and slave (bytes)
+system.iobus.pkt_size::total                   184774                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.trans_dist::ReadReq                 131                       # Transaction distribution
+system.membus.trans_dist::ReadResp                131                       # Transaction distribution
+system.membus.trans_dist::WriteReq               3761                       # Transaction distribution
+system.membus.trans_dist::WriteResp              3761                       # Transaction distribution
+system.membus.trans_dist::MessageReq               15                       # Transaction distribution
+system.membus.trans_dist::MessageResp              15                       # Transaction distribution
 system.membus.pkt_count_system.apicbridge.master::system.cpu0.interrupts.int_slave            4                       # Packet count per connected master and slave (bytes)
 system.membus.pkt_count_system.apicbridge.master::system.cpu1.interrupts.int_slave            2                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.apicbridge.master::system.cpu2.interrupts.int_slave            4                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.apicbridge.master::system.cpu3.interrupts.int_slave            4                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.apicbridge.master::total           14                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.iobridge.master::system.mem_ctrls.port         5818                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.iobridge.master::total         5818                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu0.dcache_port::system.bridge.slave           20                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu0.dcache_port::system.cpu0.interrupts.pio          422                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu0.dcache_port::total          442                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu0.interrupts.int_master::system.cpu1.interrupts.int_slave            6                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu0.interrupts.int_master::system.cpu2.interrupts.int_slave            2                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu0.interrupts.int_master::system.cpu3.interrupts.int_slave            4                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu0.interrupts.int_master::total           12                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu1.dcache_port::system.bridge.slave          202                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu1.dcache_port::system.cpu1.interrupts.pio          412                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu1.dcache_port::total          614                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.apicbridge.master::system.cpu2.interrupts.int_slave            2                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.apicbridge.master::system.cpu3.interrupts.int_slave            2                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.apicbridge.master::total           10                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.iobridge.master::system.mem_ctrls.port         5820                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.iobridge.master::total         5820                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu0.dcache_port::system.bridge.slave           56                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu0.dcache_port::system.cpu0.interrupts.pio          410                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu0.dcache_port::total          466                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu0.interrupts.int_master::system.cpu1.interrupts.int_slave            2                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu0.interrupts.int_master::system.cpu3.interrupts.int_slave            2                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu0.interrupts.int_master::total            4                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu1.dcache_port::system.bridge.slave           80                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu1.dcache_port::system.cpu1.interrupts.pio          404                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu1.dcache_port::total          484                       # Packet count per connected master and slave (bytes)
 system.membus.pkt_count_system.cpu1.interrupts.int_master::system.cpu2.interrupts.int_slave            2                       # Packet count per connected master and slave (bytes)
 system.membus.pkt_count_system.cpu1.interrupts.int_master::total            2                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu2.dcache_port::system.bridge.slave           54                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu2.dcache_port::system.cpu2.interrupts.pio          414                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu2.dcache_port::total          468                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu2.interrupts.int_master::system.cpu1.interrupts.int_slave            2                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu2.dcache_port::system.bridge.slave           12                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu2.dcache_port::system.cpu2.interrupts.pio          416                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu2.dcache_port::total          428                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu2.interrupts.int_master::system.cpu0.interrupts.int_slave            4                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu2.interrupts.int_master::system.cpu1.interrupts.int_slave            4                       # Packet count per connected master and slave (bytes)
 system.membus.pkt_count_system.cpu2.interrupts.int_master::system.cpu3.interrupts.int_slave            2                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu2.interrupts.int_master::total            4                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu3.dcache_port::system.bridge.slave           74                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu3.dcache_port::system.cpu3.interrupts.pio          414                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu3.dcache_port::total          488                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu2.interrupts.int_master::total           10                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu3.dcache_port::system.bridge.slave          180                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu3.dcache_port::system.cpu3.interrupts.pio          406                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu3.dcache_port::total          586                       # Packet count per connected master and slave (bytes)
 system.membus.pkt_count_system.cpu3.interrupts.int_master::system.cpu0.interrupts.int_slave            2                       # Packet count per connected master and slave (bytes)
 system.membus.pkt_count_system.cpu3.interrupts.int_master::system.cpu1.interrupts.int_slave            2                       # Packet count per connected master and slave (bytes)
 system.membus.pkt_count_system.cpu3.interrupts.int_master::total            4                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count::total                   7866                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count::total                   7814                       # Packet count per connected master and slave (bytes)
 system.membus.pkt_size_system.apicbridge.master::system.cpu0.interrupts.int_slave            8                       # Cumulative packet size per connected master and slave (bytes)
 system.membus.pkt_size_system.apicbridge.master::system.cpu1.interrupts.int_slave            4                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.apicbridge.master::system.cpu2.interrupts.int_slave            8                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.apicbridge.master::system.cpu3.interrupts.int_slave            8                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.apicbridge.master::total           28                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.iobridge.master::system.mem_ctrls.port       184552                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.iobridge.master::total       184552                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu0.dcache_port::system.bridge.slave           22                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu0.dcache_port::system.cpu0.interrupts.pio          844                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu0.dcache_port::total          866                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu0.interrupts.int_master::system.cpu1.interrupts.int_slave           12                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu0.interrupts.int_master::system.cpu2.interrupts.int_slave            4                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu0.interrupts.int_master::system.cpu3.interrupts.int_slave            8                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu0.interrupts.int_master::total           24                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu1.dcache_port::system.bridge.slave          113                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu1.dcache_port::system.cpu1.interrupts.pio          824                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu1.dcache_port::total          937                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.apicbridge.master::system.cpu2.interrupts.int_slave            4                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.apicbridge.master::system.cpu3.interrupts.int_slave            4                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.apicbridge.master::total           20                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.iobridge.master::system.mem_ctrls.port       184560                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.iobridge.master::total       184560                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu0.dcache_port::system.bridge.slave           43                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu0.dcache_port::system.cpu0.interrupts.pio          820                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu0.dcache_port::total          863                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu0.interrupts.int_master::system.cpu1.interrupts.int_slave            4                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu0.interrupts.int_master::system.cpu3.interrupts.int_slave            4                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu0.interrupts.int_master::total            8                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu1.dcache_port::system.bridge.slave           46                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu1.dcache_port::system.cpu1.interrupts.pio          808                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu1.dcache_port::total          854                       # Cumulative packet size per connected master and slave (bytes)
 system.membus.pkt_size_system.cpu1.interrupts.int_master::system.cpu2.interrupts.int_slave            4                       # Cumulative packet size per connected master and slave (bytes)
 system.membus.pkt_size_system.cpu1.interrupts.int_master::total            4                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu2.dcache_port::system.bridge.slave           42                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu2.dcache_port::system.cpu2.interrupts.pio          828                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu2.dcache_port::total          870                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu2.interrupts.int_master::system.cpu1.interrupts.int_slave            4                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu2.dcache_port::system.bridge.slave            6                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu2.dcache_port::system.cpu2.interrupts.pio          832                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu2.dcache_port::total          838                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu2.interrupts.int_master::system.cpu0.interrupts.int_slave            8                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu2.interrupts.int_master::system.cpu1.interrupts.int_slave            8                       # Cumulative packet size per connected master and slave (bytes)
 system.membus.pkt_size_system.cpu2.interrupts.int_master::system.cpu3.interrupts.int_slave            4                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu2.interrupts.int_master::total            8                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu3.dcache_port::system.bridge.slave           49                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu3.dcache_port::system.cpu3.interrupts.pio          828                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu3.dcache_port::total          877                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu2.interrupts.int_master::total           20                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu3.dcache_port::system.bridge.slave           99                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu3.dcache_port::system.cpu3.interrupts.pio          812                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu3.dcache_port::total          911                       # Cumulative packet size per connected master and slave (bytes)
 system.membus.pkt_size_system.cpu3.interrupts.int_master::system.cpu0.interrupts.int_slave            4                       # Cumulative packet size per connected master and slave (bytes)
 system.membus.pkt_size_system.cpu3.interrupts.int_master::system.cpu1.interrupts.int_slave            4                       # Cumulative packet size per connected master and slave (bytes)
 system.membus.pkt_size_system.cpu3.interrupts.int_master::total            8                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size::total                  188174                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size::total                  188086                       # Cumulative packet size per connected master and slave (bytes)
 system.membus.snoops                                0                       # Total snoops (count)
 system.membus.snoop_fanout::samples                 0                       # Request fanout histogram
 system.membus.snoop_fanout::mean                  nan                       # Request fanout histogram
@@ -414,33 +414,33 @@ system.pc.south_bridge.ide.disks.dma_write_txs           45                     
 ---------- End Simulation Statistics   ----------
 
 ---------- Begin Simulation Statistics ----------
-sim_seconds                                  0.956579                       # Number of seconds simulated
-sim_ticks                                956579204500                       # Number of ticks simulated
-final_tick                               53402759096500                       # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
+sim_seconds                                  0.946431                       # Number of seconds simulated
+sim_ticks                                946430942500                       # Number of ticks simulated
+final_tick                               52633232237500                       # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
 sim_freq                                 1000000000000                       # Frequency of simulated ticks
-host_inst_rate                             3258161967                       # Simulator instruction rate (inst/s)
-host_op_rate                               3258093652                       # Simulator op (including micro ops) rate (op/s)
-host_tick_rate                           928328393730                       # Simulator tick rate (ticks/s)
-host_mem_usage                                1325884                       # Number of bytes of host memory used
-host_seconds                                     1.03                       # Real time elapsed on the host
-sim_insts                                  3357176672                       # Number of instructions simulated
-sim_ops                                    3357176672                       # Number of ops (including micro ops) simulated
+host_inst_rate                             3359290161                       # Simulator instruction rate (inst/s)
+host_op_rate                               3359219720                       # Simulator op (including micro ops) rate (op/s)
+host_tick_rate                           945918655658                       # Simulator tick rate (ticks/s)
+host_mem_usage                                1325968                       # Number of bytes of host memory used
+host_seconds                                     1.00                       # Real time elapsed on the host
+sim_insts                                  3360971506                       # Number of instructions simulated
+sim_ops                                    3360971506                       # Number of ops (including micro ops) simulated
 system.voltage_domain.voltage                       1                       # Voltage in Volts
 system.clk_domain.clock                          1000                       # Clock period in ticks
-system.mem_ctrls.bytes_read::pc.south_bridge.ide          248                       # Number of bytes read from this memory
-system.mem_ctrls.bytes_read::total                248                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_read::pc.south_bridge.ide          256                       # Number of bytes read from this memory
+system.mem_ctrls.bytes_read::total                256                       # Number of bytes read from this memory
 system.mem_ctrls.bytes_written::pc.south_bridge.ide       192512                       # Number of bytes written to this memory
 system.mem_ctrls.bytes_written::total          192512                       # Number of bytes written to this memory
-system.mem_ctrls.num_reads::pc.south_bridge.ide           31                       # Number of read requests responded to by this memory
-system.mem_ctrls.num_reads::total                  31                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_reads::pc.south_bridge.ide           32                       # Number of read requests responded to by this memory
+system.mem_ctrls.num_reads::total                  32                       # Number of read requests responded to by this memory
 system.mem_ctrls.num_writes::pc.south_bridge.ide         3008                       # Number of write requests responded to by this memory
 system.mem_ctrls.num_writes::total               3008                       # Number of write requests responded to by this memory
-system.mem_ctrls.bw_read::pc.south_bridge.ide          259                       # Total read bandwidth from this memory (bytes/s)
-system.mem_ctrls.bw_read::total                   259                       # Total read bandwidth from this memory (bytes/s)
-system.mem_ctrls.bw_write::pc.south_bridge.ide       201250                       # Write bandwidth from this memory (bytes/s)
-system.mem_ctrls.bw_write::total               201250                       # Write bandwidth from this memory (bytes/s)
-system.mem_ctrls.bw_total::pc.south_bridge.ide       201510                       # Total bandwidth to/from this memory (bytes/s)
-system.mem_ctrls.bw_total::total               201510                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_read::pc.south_bridge.ide          270                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_read::total                   270                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_write::pc.south_bridge.ide       203408                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_write::total               203408                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrls.bw_total::pc.south_bridge.ide       203679                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrls.bw_total::total               203679                       # Total bandwidth to/from this memory (bytes/s)
 system.mem_ctrls.readReqs                           0                       # Number of read requests accepted
 system.mem_ctrls.writeReqs                          0                       # Number of write requests accepted
 system.mem_ctrls.readBursts                         0                       # Number of DRAM read bursts, including those serviced by the write queue
@@ -651,171 +651,165 @@ system.mem_ctrls_1.memoryStateTime::ACT_PDN            0                       #
 system.cpu_voltage_domain.voltage                   1                       # Voltage in Volts
 system.cpu_clk_domain.clock                       500                       # Clock period in ticks
 system.cpu0.apic_clk_domain.clock                8000                       # Clock period in ticks
-system.cpu0.numCycles                      1910291667                       # number of cpu cycles simulated
+system.cpu0.numCycles                      1897575068                       # number of cpu cycles simulated
 system.cpu0.numWorkItemsStarted                     0                       # number of work items this cpu started
 system.cpu0.numWorkItemsCompleted                   0                       # number of work items this cpu completed
-system.cpu0.committedInsts                 1959538156                       # Number of instructions committed
-system.cpu0.numVMExits                           8973                       # total number of KVM exits
+system.cpu0.committedInsts                    3075375                       # Number of instructions committed
+system.cpu0.numVMExits                           4271                       # total number of KVM exits
 system.cpu0.numVMHalfEntries                        0                       # number of KVM entries to finalize pending operations
-system.cpu0.numExitSignal                        3765                       # exits due to signal delivery
-system.cpu0.numMMIO                               281                       # number of VM exits due to memory mapped IO
+system.cpu0.numExitSignal                        3002                       # exits due to signal delivery
+system.cpu0.numMMIO                               289                       # number of VM exits due to memory mapped IO
 system.cpu0.numCoalescedMMIO                        0                       # number of coalesced memory mapped IO requests
-system.cpu0.numIO                                4900                       # number of VM exits due to legacy IO
-system.cpu0.numHalt                                18                       # number of VM exits due to wait for interrupt instructions
-system.cpu0.numInterrupts                         222                       # number of interrupts delivered
+system.cpu0.numIO                                 738                       # number of VM exits due to legacy IO
+system.cpu0.numHalt                               236                       # number of VM exits due to wait for interrupt instructions
+system.cpu0.numInterrupts                         251                       # number of interrupts delivered
 system.cpu0.numHypercalls                           0                       # number of hypercalls
 system.cpu0.kern.inst.arm                           0                       # number of arm instructions executed
 system.cpu0.kern.inst.quiesce                       0                       # number of quiesce instructions executed
 system.cpu1.apic_clk_domain.clock                8000                       # Clock period in ticks
-system.cpu1.numCycles                      1912612204                       # number of cpu cycles simulated
+system.cpu1.numCycles                      1889785719                       # number of cpu cycles simulated
 system.cpu1.numWorkItemsStarted                     0                       # number of work items this cpu started
 system.cpu1.numWorkItemsCompleted                   0                       # number of work items this cpu completed
-system.cpu1.committedInsts                    2541554                       # Number of instructions committed
-system.cpu1.numVMExits                           2776                       # total number of KVM exits
-system.cpu1.numVMHalfEntries                        0                       # number of KVM entries to finalize pending operations
-system.cpu1.numExitSignal                        1771                       # exits due to signal delivery
-system.cpu1.numMMIO                               305                       # number of VM exits due to memory mapped IO
+system.cpu1.committedInsts                   17857715                       # Number of instructions committed
+system.cpu1.numVMExits                           7976                       # total number of KVM exits
+system.cpu1.numVMHalfEntries                        1                       # number of KVM entries to finalize pending operations
+system.cpu1.numExitSignal                        2522                       # exits due to signal delivery
+system.cpu1.numMMIO                               256                       # number of VM exits due to memory mapped IO
 system.cpu1.numCoalescedMMIO                        0                       # number of coalesced memory mapped IO requests
-system.cpu1.numIO                                 448                       # number of VM exits due to legacy IO
-system.cpu1.numHalt                               243                       # number of VM exits due to wait for interrupt instructions
-system.cpu1.numInterrupts                         258                       # number of interrupts delivered
+system.cpu1.numIO                                4979                       # number of VM exits due to legacy IO
+system.cpu1.numHalt                               213                       # number of VM exits due to wait for interrupt instructions
+system.cpu1.numInterrupts                         223                       # number of interrupts delivered
 system.cpu1.numHypercalls                           0                       # number of hypercalls
 system.cpu1.kern.inst.arm                           0                       # number of arm instructions executed
 system.cpu1.kern.inst.quiesce                       0                       # number of quiesce instructions executed
 system.cpu2.apic_clk_domain.clock                8000                       # Clock period in ticks
-system.cpu2.numCycles                      1913210279                       # number of cpu cycles simulated
+system.cpu2.numCycles                      1890398644                       # number of cpu cycles simulated
 system.cpu2.numWorkItemsStarted                     0                       # number of work items this cpu started
 system.cpu2.numWorkItemsCompleted                   0                       # number of work items this cpu completed
-system.cpu2.committedInsts                    4054115                       # Number of instructions committed
-system.cpu2.numVMExits                           3749                       # total number of KVM exits
-system.cpu2.numVMHalfEntries                        2                       # number of KVM entries to finalize pending operations
-system.cpu2.numExitSignal                        2979                       # exits due to signal delivery
-system.cpu2.numMMIO                               318                       # number of VM exits due to memory mapped IO
+system.cpu2.committedInsts                 1961600461                       # Number of instructions committed
+system.cpu2.numVMExits                           2584                       # total number of KVM exits
+system.cpu2.numVMHalfEntries                        0                       # number of KVM entries to finalize pending operations
+system.cpu2.numExitSignal                        2149                       # exits due to signal delivery
+system.cpu2.numMMIO                               298                       # number of VM exits due to memory mapped IO
 system.cpu2.numCoalescedMMIO                        0                       # number of coalesced memory mapped IO requests
-system.cpu2.numIO                                 205                       # number of VM exits due to legacy IO
-system.cpu2.numHalt                               241                       # number of VM exits due to wait for interrupt instructions
-system.cpu2.numInterrupts                         260                       # number of interrupts delivered
+system.cpu2.numIO                                  86                       # number of VM exits due to legacy IO
+system.cpu2.numHalt                                48                       # number of VM exits due to wait for interrupt instructions
+system.cpu2.numInterrupts                         248                       # number of interrupts delivered
 system.cpu2.numHypercalls                           0                       # number of hypercalls
 system.cpu2.kern.inst.arm                           0                       # number of arm instructions executed
 system.cpu2.kern.inst.quiesce                       0                       # number of quiesce instructions executed
 system.cpu3.apic_clk_domain.clock                8000                       # Clock period in ticks
-system.cpu3.numCycles                      1912972099                       # number of cpu cycles simulated
+system.cpu3.numCycles                      1889676539                       # number of cpu cycles simulated
 system.cpu3.numWorkItemsStarted                     0                       # number of work items this cpu started
 system.cpu3.numWorkItemsCompleted                   0                       # number of work items this cpu completed
-system.cpu3.committedInsts                   18847930                       # Number of instructions committed
-system.cpu3.numVMExits                           3511                       # total number of KVM exits
+system.cpu3.committedInsts                    2491702                       # Number of instructions committed
+system.cpu3.numVMExits                           3119                       # total number of KVM exits
 system.cpu3.numVMHalfEntries                        2                       # number of KVM entries to finalize pending operations
-system.cpu3.numExitSignal                        2530                       # exits due to signal delivery
-system.cpu3.numMMIO                               313                       # number of VM exits due to memory mapped IO
+system.cpu3.numExitSignal                        2414                       # exits due to signal delivery
+system.cpu3.numMMIO                               300                       # number of VM exits due to memory mapped IO
 system.cpu3.numCoalescedMMIO                        0                       # number of coalesced memory mapped IO requests
-system.cpu3.numIO                                 422                       # number of VM exits due to legacy IO
-system.cpu3.numHalt                               241                       # number of VM exits due to wait for interrupt instructions
-system.cpu3.numInterrupts                         256                       # number of interrupts delivered
+system.cpu3.numIO                                 161                       # number of VM exits due to legacy IO
+system.cpu3.numHalt                               242                       # number of VM exits due to wait for interrupt instructions
+system.cpu3.numInterrupts                         251                       # number of interrupts delivered
 system.cpu3.numHypercalls                           0                       # number of hypercalls
 system.cpu3.kern.inst.arm                           0                       # number of arm instructions executed
 system.cpu3.kern.inst.quiesce                       0                       # number of quiesce instructions executed
-system.iobus.trans_dist::ReadReq                 4472                       # Transaction distribution
-system.iobus.trans_dist::ReadResp                4472                       # Transaction distribution
-system.iobus.trans_dist::WriteReq                4665                       # Transaction distribution
-system.iobus.trans_dist::WriteResp               4665                       # Transaction distribution
-system.iobus.trans_dist::MessageReq                37                       # Transaction distribution
-system.iobus.trans_dist::MessageResp               37                       # Transaction distribution
+system.iobus.trans_dist::ReadReq                 4453                       # Transaction distribution
+system.iobus.trans_dist::ReadResp                4453                       # Transaction distribution
+system.iobus.trans_dist::WriteReq                4641                       # Transaction distribution
+system.iobus.trans_dist::WriteResp               4641                       # Transaction distribution
+system.iobus.trans_dist::MessageReq                29                       # Transaction distribution
+system.iobus.trans_dist::MessageResp               29                       # Transaction distribution
 system.iobus.pkt_count_system.bridge.master::system.pc.south_bridge.ide.pio          230                       # Packet count per connected master and slave (bytes)
-system.iobus.pkt_count_system.bridge.master::system.pc.south_bridge.io_apic.pio          246                       # Packet count per connected master and slave (bytes)
-system.iobus.pkt_count_system.bridge.master::system.pc.com_1.pio        11720                       # Packet count per connected master and slave (bytes)
-system.iobus.pkt_count_system.bridge.master::total        12196                       # Packet count per connected master and slave (bytes)
-system.iobus.pkt_count_system.pc.south_bridge.ide.dma::system.iobridge.slave         6078                       # Packet count per connected master and slave (bytes)
-system.iobus.pkt_count_system.pc.south_bridge.ide.dma::total         6078                       # Packet count per connected master and slave (bytes)
-system.iobus.pkt_count_system.pc.south_bridge.io_apic.int_master::system.apicbridge.slave           74                       # Packet count per connected master and slave (bytes)
-system.iobus.pkt_count_system.pc.south_bridge.io_apic.int_master::total           74                       # Packet count per connected master and slave (bytes)
-system.iobus.pkt_count::total                   18348                       # Packet count per connected master and slave (bytes)
+system.iobus.pkt_count_system.bridge.master::system.pc.south_bridge.io_apic.pio          180                       # Packet count per connected master and slave (bytes)
+system.iobus.pkt_count_system.bridge.master::system.pc.com_1.pio        11698                       # Packet count per connected master and slave (bytes)
+system.iobus.pkt_count_system.bridge.master::total        12108                       # Packet count per connected master and slave (bytes)
+system.iobus.pkt_count_system.pc.south_bridge.ide.dma::system.iobridge.slave         6080                       # Packet count per connected master and slave (bytes)
+system.iobus.pkt_count_system.pc.south_bridge.ide.dma::total         6080                       # Packet count per connected master and slave (bytes)
+system.iobus.pkt_count_system.pc.south_bridge.io_apic.int_master::system.apicbridge.slave           58                       # Packet count per connected master and slave (bytes)
+system.iobus.pkt_count_system.pc.south_bridge.io_apic.int_master::total           58                       # Packet count per connected master and slave (bytes)
+system.iobus.pkt_count::total                   18246                       # Packet count per connected master and slave (bytes)
 system.iobus.pkt_size_system.bridge.master::system.pc.south_bridge.ide.pio          130                       # Cumulative packet size per connected master and slave (bytes)
-system.iobus.pkt_size_system.bridge.master::system.pc.south_bridge.io_apic.pio          492                       # Cumulative packet size per connected master and slave (bytes)
-system.iobus.pkt_size_system.bridge.master::system.pc.com_1.pio         5860                       # Cumulative packet size per connected master and slave (bytes)
-system.iobus.pkt_size_system.bridge.master::total         6482                       # Cumulative packet size per connected master and slave (bytes)
-system.iobus.pkt_size_system.pc.south_bridge.ide.dma::system.iobridge.slave       192760                       # Cumulative packet size per connected master and slave (bytes)
-system.iobus.pkt_size_system.pc.south_bridge.ide.dma::total       192760                       # Cumulative packet size per connected master and slave (bytes)
-system.iobus.pkt_size_system.pc.south_bridge.io_apic.int_master::system.apicbridge.slave          148                       # Cumulative packet size per connected master and slave (bytes)
-system.iobus.pkt_size_system.pc.south_bridge.io_apic.int_master::total          148                       # Cumulative packet size per connected master and slave (bytes)
-system.iobus.pkt_size::total                   199390                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.trans_dist::ReadReq                4504                       # Transaction distribution
-system.membus.trans_dist::ReadResp               4504                       # Transaction distribution
-system.membus.trans_dist::WriteReq               5725                       # Transaction distribution
-system.membus.trans_dist::WriteResp              5725                       # Transaction distribution
-system.membus.trans_dist::MessageReq               72                       # Transaction distribution
-system.membus.trans_dist::MessageResp              72                       # Transaction distribution
-system.membus.pkt_count_system.apicbridge.master::system.cpu0.interrupts.int_slave           18                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.apicbridge.master::system.cpu1.interrupts.int_slave           18                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.apicbridge.master::system.cpu2.interrupts.int_slave           20                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.apicbridge.master::system.cpu3.interrupts.int_slave           18                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.apicbridge.master::total           74                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.iobridge.master::system.mem_ctrls.port         6078                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.iobridge.master::total         6078                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu0.dcache_port::system.bridge.slave         9868                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu0.dcache_port::system.cpu0.interrupts.pio          492                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu0.dcache_port::total        10360                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu0.interrupts.int_master::system.cpu1.interrupts.int_slave            8                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu0.interrupts.int_master::system.cpu2.interrupts.int_slave            6                       # Packet count per connected master and slave (bytes)
+system.iobus.pkt_size_system.bridge.master::system.pc.south_bridge.io_apic.pio          360                       # Cumulative packet size per connected master and slave (bytes)
+system.iobus.pkt_size_system.bridge.master::system.pc.com_1.pio         5849                       # Cumulative packet size per connected master and slave (bytes)
+system.iobus.pkt_size_system.bridge.master::total         6339                       # Cumulative packet size per connected master and slave (bytes)
+system.iobus.pkt_size_system.pc.south_bridge.ide.dma::system.iobridge.slave       192768                       # Cumulative packet size per connected master and slave (bytes)
+system.iobus.pkt_size_system.pc.south_bridge.ide.dma::total       192768                       # Cumulative packet size per connected master and slave (bytes)
+system.iobus.pkt_size_system.pc.south_bridge.io_apic.int_master::system.apicbridge.slave          116                       # Cumulative packet size per connected master and slave (bytes)
+system.iobus.pkt_size_system.pc.south_bridge.io_apic.int_master::total          116                       # Cumulative packet size per connected master and slave (bytes)
+system.iobus.pkt_size::total                   199223                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.trans_dist::ReadReq                4479                       # Transaction distribution
+system.membus.trans_dist::ReadResp               4479                       # Transaction distribution
+system.membus.trans_dist::WriteReq               5666                       # Transaction distribution
+system.membus.trans_dist::WriteResp              5666                       # Transaction distribution
+system.membus.trans_dist::MessageReq               58                       # Transaction distribution
+system.membus.trans_dist::MessageResp              58                       # Transaction distribution
+system.membus.pkt_count_system.apicbridge.master::system.cpu0.interrupts.int_slave           16                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.apicbridge.master::system.cpu1.interrupts.int_slave           14                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.apicbridge.master::system.cpu2.interrupts.int_slave           14                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.apicbridge.master::system.cpu3.interrupts.int_slave           14                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.apicbridge.master::total           58                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.iobridge.master::system.mem_ctrls.port         6080                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.iobridge.master::total         6080                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu0.dcache_port::system.bridge.slave         1526                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu0.dcache_port::system.cpu0.interrupts.pio          526                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu0.dcache_port::total         2052                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu0.interrupts.int_master::system.cpu1.interrupts.int_slave            2                       # Packet count per connected master and slave (bytes)
 system.membus.pkt_count_system.cpu0.interrupts.int_master::system.cpu3.interrupts.int_slave            6                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu0.interrupts.int_master::total           20                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu1.dcache_port::system.bridge.slave          954                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu1.dcache_port::system.cpu1.interrupts.pio          552                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu1.dcache_port::total         1506                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu1.interrupts.int_master::system.cpu0.interrupts.int_slave            2                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu1.interrupts.int_master::system.cpu2.interrupts.int_slave            8                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu1.interrupts.int_master::system.cpu3.interrupts.int_slave            4                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu1.interrupts.int_master::total           14                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu2.dcache_port::system.bridge.slave          472                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu2.dcache_port::system.cpu2.interrupts.pio          574                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu2.dcache_port::total         1046                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu2.interrupts.int_master::system.cpu0.interrupts.int_slave            2                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu0.interrupts.int_master::total            8                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu1.dcache_port::system.bridge.slave        10006                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu1.dcache_port::system.cpu1.interrupts.pio          464                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu1.dcache_port::total        10470                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu1.interrupts.int_master::system.cpu2.interrupts.int_slave            6                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu1.interrupts.int_master::total            6                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu2.dcache_port::system.bridge.slave          210                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu2.dcache_port::system.cpu2.interrupts.pio          556                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu2.dcache_port::total          766                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu2.interrupts.int_master::system.cpu0.interrupts.int_slave           10                       # Packet count per connected master and slave (bytes)
 system.membus.pkt_count_system.cpu2.interrupts.int_master::system.cpu1.interrupts.int_slave            8                       # Packet count per connected master and slave (bytes)
 system.membus.pkt_count_system.cpu2.interrupts.int_master::system.cpu3.interrupts.int_slave            8                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu2.interrupts.int_master::total           18                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu3.dcache_port::system.bridge.slave          902                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu3.dcache_port::system.cpu3.interrupts.pio          566                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu3.dcache_port::total         1468                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu3.interrupts.int_master::system.cpu0.interrupts.int_slave            4                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu2.interrupts.int_master::total           26                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu3.dcache_port::system.bridge.slave          366                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu3.dcache_port::system.cpu3.interrupts.pio          556                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu3.dcache_port::total          922                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu3.interrupts.int_master::system.cpu0.interrupts.int_slave           10                       # Packet count per connected master and slave (bytes)
 system.membus.pkt_count_system.cpu3.interrupts.int_master::system.cpu1.interrupts.int_slave            6                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count_system.cpu3.interrupts.int_master::system.cpu2.interrupts.int_slave            8                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.cpu3.interrupts.int_master::system.cpu2.interrupts.int_slave            2                       # Packet count per connected master and slave (bytes)
 system.membus.pkt_count_system.cpu3.interrupts.int_master::total           18                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_count::total                  20602                       # Packet count per connected master and slave (bytes)
-system.membus.pkt_size_system.apicbridge.master::system.cpu0.interrupts.int_slave           36                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.apicbridge.master::system.cpu1.interrupts.int_slave           36                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.apicbridge.master::system.cpu2.interrupts.int_slave           40                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.apicbridge.master::system.cpu3.interrupts.int_slave           36                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.apicbridge.master::total          148                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.iobridge.master::system.mem_ctrls.port       192760                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.iobridge.master::total       192760                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu0.dcache_port::system.bridge.slave         5036                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu0.dcache_port::system.cpu0.interrupts.pio          984                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu0.dcache_port::total         6020                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu0.interrupts.int_master::system.cpu1.interrupts.int_slave           16                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu0.interrupts.int_master::system.cpu2.interrupts.int_slave           12                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_count::total                  20406                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_size_system.apicbridge.master::system.cpu0.interrupts.int_slave           32                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.apicbridge.master::system.cpu1.interrupts.int_slave           28                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.apicbridge.master::system.cpu2.interrupts.int_slave           28                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.apicbridge.master::system.cpu3.interrupts.int_slave           28                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.apicbridge.master::total          116                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.iobridge.master::system.mem_ctrls.port       192768                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.iobridge.master::total       192768                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu0.dcache_port::system.bridge.slave          841                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu0.dcache_port::system.cpu0.interrupts.pio         1052                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu0.dcache_port::total         1893                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu0.interrupts.int_master::system.cpu1.interrupts.int_slave            4                       # Cumulative packet size per connected master and slave (bytes)
 system.membus.pkt_size_system.cpu0.interrupts.int_master::system.cpu3.interrupts.int_slave           12                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu0.interrupts.int_master::total           40                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu1.dcache_port::system.bridge.slave          570                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu1.dcache_port::system.cpu1.interrupts.pio         1104                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu1.dcache_port::total         1674                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu1.interrupts.int_master::system.cpu0.interrupts.int_slave            4                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu1.interrupts.int_master::system.cpu2.interrupts.int_slave           16                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu1.interrupts.int_master::system.cpu3.interrupts.int_slave            8                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu1.interrupts.int_master::total           28                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu2.dcache_port::system.bridge.slave          332                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu2.dcache_port::system.cpu2.interrupts.pio         1148                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu2.dcache_port::total         1480                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu2.interrupts.int_master::system.cpu0.interrupts.int_slave            4                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu0.interrupts.int_master::total           16                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu1.dcache_port::system.bridge.slave         5081                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu1.dcache_port::system.cpu1.interrupts.pio          928                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu1.dcache_port::total         6009                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu1.interrupts.int_master::system.cpu2.interrupts.int_slave           12                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu1.interrupts.int_master::total           12                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu2.dcache_port::system.bridge.slave          168                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu2.dcache_port::system.cpu2.interrupts.pio         1112                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu2.dcache_port::total         1280                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu2.interrupts.int_master::system.cpu0.interrupts.int_slave           20                       # Cumulative packet size per connected master and slave (bytes)
 system.membus.pkt_size_system.cpu2.interrupts.int_master::system.cpu1.interrupts.int_slave           16                       # Cumulative packet size per connected master and slave (bytes)
 system.membus.pkt_size_system.cpu2.interrupts.int_master::system.cpu3.interrupts.int_slave           16                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu2.interrupts.int_master::total           36                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu3.dcache_port::system.bridge.slave          544                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu3.dcache_port::system.cpu3.interrupts.pio         1132                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu3.dcache_port::total         1676                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu3.interrupts.int_master::system.cpu0.interrupts.int_slave            8                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu2.interrupts.int_master::total           52                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu3.dcache_port::system.bridge.slave          249                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu3.dcache_port::system.cpu3.interrupts.pio         1112                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu3.dcache_port::total         1361                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu3.interrupts.int_master::system.cpu0.interrupts.int_slave           20                       # Cumulative packet size per connected master and slave (bytes)
 system.membus.pkt_size_system.cpu3.interrupts.int_master::system.cpu1.interrupts.int_slave           12                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size_system.cpu3.interrupts.int_master::system.cpu2.interrupts.int_slave           16                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.cpu3.interrupts.int_master::system.cpu2.interrupts.int_slave            4                       # Cumulative packet size per connected master and slave (bytes)
 system.membus.pkt_size_system.cpu3.interrupts.int_master::total           36                       # Cumulative packet size per connected master and slave (bytes)
-system.membus.pkt_size::total                  203898                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size::total                  203543                       # Cumulative packet size per connected master and slave (bytes)
 system.membus.snoops                                0                       # Total snoops (count)
 system.membus.snoop_fanout::samples                 0                       # Request fanout histogram
 system.membus.snoop_fanout::mean                  nan                       # Request fanout histogram

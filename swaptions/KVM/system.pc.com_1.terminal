@@ -157,16 +157,16 @@ USB Mass Storage support registered.
 serio: i8042 KBD port at 0x60,0x64 irq 1
 serio: i8042 AUX port at 0x60,0x64 irq 12
 mousedev: PS/2 mouse device common for all mice
-device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
 input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+device-mapper: ioctl: 4.22.0-ioctl (2011-10-19) initialised: dm-devel@redhat.com
 usbcore: registered new interface driver usbhid
 usbhid: USB HID core driver
 oprofile: using timer interrupt.
 TCP: cubic registered
+input: PS/2 Generic Mouse as /devices/platform/i8042/serio1/input/input1
 NET: Registered protocol family 10
 IPv6 over IPv4 tunneling driver
 NET: Registered protocol family 17
-input: PS/2 Generic Mouse as /devices/platform/i8042/serio1/input/input1
 console [netcon0] enabled
 netconsole: network logging started
 EXT2-fs (hda1): warning: mounting unchecked fs, running e2fsck is recommended
@@ -195,23 +195,23 @@ Swaption 3: [SwaptionPrice: 6.4801759395 StdError: 0.0016923922]
 Swaption 4: [SwaptionPrice: 79.7804902254 StdError: 0.0194846446] 
 Swaption 5: [SwaptionPrice: 6.8645234215 StdError: 0.0023350763] 
 Swaption 6: [SwaptionPrice: 81.3002423976 StdError: 0.0166488659] 
-Swaption 7: [SwaptionPrice: 3.0594089064 StdError: 0.0006198656] 
-Swaption 8: [SwaptionPrice: 112.3290190813 serial8250: too much work for irq4
-StdError: 0.0197234194] 
+Swaption 7: [SwaptionPrice: 3.0594089064 Stserial8250: too much work for irq4
+dError: 0.0006198656] 
+Swaption 8: [SwaptionPrice: 112.3290190813 StdError: 0.0197234194] 
 Swaption 9: [SwaptionPrice: 3.0611458995 StdError: 0.0006210262] 
 Swaption 10: [SwaptionPrice: 12.0706190693 StdError: 0.0029064870] 
 Swaption 11: [SwaptionPrice: 24.0315183137 StdError: 0.0043411367] 
 Swaption 12: [SwaptionPrice: 96.6873061511 StdError: 0.0247704953] 
 Swaption 13: [SwaptionPrice: 1.1507825687 StdError: 0.0003896316] 
 Swaption 14: [SwaptionPrice: 9.2844397515 StdError: 0.0021512490] 
-Swaption 15: [SwaptionPrice: 9.6495866271 StdError: 0.0020492623] 
-[HOOKS] Toserial8250: too much work for irq4
-tal time spent in ROI: 0.800s
+Swaption 15serial8250: too much work for irq4
+: [SwaptionPrice: 9.6495866271 StdError: 0.0020492623] 
+[HOOKS] Total time spent in ROI: 0.788s
 [HOOKS] Terminating
 
 real	0m0.864s
-user	0m0.800s
-sys	0m0.060s
+user	0m0.784s
+sys	0m0.068s
 [PARSEC] [----------    End of output    ----------]
 [PARSEC]
 [PARSEC] BIBLIOGRAPHY
